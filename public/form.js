@@ -23,6 +23,9 @@ document.getElementById('inquiryForm').addEventListener('submit', function(e) {
     .then(data => {
         console.log('Success:', data);
         alert('Your inquiry has been submitted.');
+
+        // Clear the form after successful submission
+        document.getElementById('inquiryForm').reset();
     })
     .catch((error) => {
         console.error('Error:', error);

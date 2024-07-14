@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url('pexels-tima-miroshnichenko-9572632.jpg') no-repeat center center fixed; /* Update with your image name */
+    background: url('pexels-tima-miroshnichenko-9572632.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #333;
 }
@@ -12,7 +12,7 @@ body {
 h1 {
     text-align: center;
     margin-top: 50px;
-    color: #4CAF50; /* Green color */
+    color: #4CAF50; 
     font-size: 2.5em;
 }
 
@@ -41,7 +41,7 @@ textarea {
 }
 
 button {
-    background-color: #4CAF50; /* Green */
+    background-color: #0B6BCD; 
     color: white;
     padding: 10px 15px;
     border: none;
@@ -52,7 +52,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #1867b7; 
 }
 
 @media (max-width: 600px) {
