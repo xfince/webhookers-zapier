@@ -12,7 +12,7 @@ document.getElementById('inquiryForm').addEventListener('submit', function(e) {
     };
 
     // Send form data to a server endpoint
-    fetch('http://localhost:5500/submit', {
+    fetch('https://webhookers-zapier.onrender.com/render/submit', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
