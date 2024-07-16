@@ -30,28 +30,31 @@ To get a local copy up and running, follow these simple steps:
 ### Installation
 1. **Clone the repo**
    ```sh
-   git clone https://github.com/your-username/student-inquiry-form.git
-Navigate to the project directory
-sh
-Copy code
-cd student-inquiry-form
-Install NPM packages
-sh
-Copy code
-npm install
-Usage
-Start the server
-sh
-Copy code
-npm start
-Open your browser and navigate to
-sh
-Copy code
-http://localhost:5500
-Submit an inquiry through the form and check the server logs for the received data.
-Deployment
-The application is deployed on Render. You can access the live version here:
-Live Site <!-- Add your live site link here -->
+   https://github.com/xfince/webhookers-zapier.git
 
-Contributors
-Your Name 
+2. **Navigate to the project directory**
+   ```sh
+   cd student-inquiry-form
+   
+3. **Install NPM packages**
+   ```sh
+   npm install
+
+## Usage
+1. **Start the server**
+   ```sh
+   npm start
+
+2. **Open your browser and navigate to**
+   ```sh
+   http://localhost:5500
+
+3. **Submit an inquiry through the form and check the server logs for the received data.**
+
+## Deployment
+The application is deployed on Render. You can access the live version here:
+[Live Site](https://webhookers-zapier.onrender.com/)
+
+## Contributors
+-**Kimani Vincent King'atua**: [Github Profile](https://github.com/xfince)
+
